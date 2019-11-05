@@ -10,8 +10,8 @@ class Content5 extends React.Component{
 	               <div class="row">
 	                 <div class="col-2 col-md-2 col-sm-2"><AnchorLink href="#news"><img src="/images/Logopng.png" width="100%" style={{marginLeft:"10%",marginTop:"10%"}} /></AnchorLink></div>
 	               </div>
-	               <br />
-	               <br />
+	             <br />
+	             <br />
 	             <br />
 	             <br />
 	             <br />

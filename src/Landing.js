@@ -10,7 +10,7 @@ import Logo from './Logo';
 class Landing extends React.Component{
 	render(){
 		return(
-			<div style={{ backgroundImage: 'URL(/images/bgg23.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
+			<div style={{ backgroundImage: 'URL(/images/bgg23.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }}>
 
             <div id="news" class="row"  >
               <div class="col-2 col-md-2 col-sm-2"></div>
