@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import './Landing.css';
 class Landing extends React.Component{
 	render(){
 		return(
@@ -9,15 +10,15 @@ class Landing extends React.Component{
 
             <div id="news" class="row"  >
               <div class="col-2 col-md-2 col-sm-2"></div>
-              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink href="#two"><img src="/images/11.png" alt="logo 512" width="100%" /></AnchorLink></div>
-              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink href="#one"><img src="/images/44.png" alt="logo 512" width="100%" /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink class="hoverBtn" href="#two"><img src="/images/11.png" alt="logo 512" width="100%" /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink class="hoverBtn" href="#one"><img src="/images/44.png" alt="logo 512" width="100%" /></AnchorLink></div>
               <div class="col-2 col-md-2 col-sm-2"></div>
             </div>
 
             <div class="row">
-              <div class="col-4 col-md-4 col-sm-4" mar>  <AnchorLink href="#six1"><img src="/images/22.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4" mar><AnchorLink class="hoverBtn" href="#six1"><img src="/images/22.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
               <div class="col-4 col-md-4 col-sm-4"><img src="/images/Logopng.png" alt="logo 512" width="100%" /></div>
-              <div class="col-4 col-md-4 col-sm-4" >  <AnchorLink href="#one"><img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4" ><AnchorLink class="hoverBtn" href="#one"><img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
             </div>
 
             <div class="row">
@@ -93,24 +94,10 @@ class Landing extends React.Component{
             <br />
             <br />
             <br />
-         
-         
-                
             </div>
-
-
-
-
-
-
-
-
-            {/* แถวสอง */}
             <div >
               <div class="row" style={{ backgroundImage: 'URL(/images/bg2.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
                 <div class="col-1 col-md-1 col-sm-1" ></div>
-
-                {/* style={{backgroundImage: 'URL(/images/bggg.png)' ,backgroundSize:"cover",backgroundPosition:"center" }} */}
                 <div class="col-10 col-md-10 col-sm-10" id="one" >
                   <Carousel >
                     <Carousel.Item  >
@@ -118,32 +105,26 @@ class Landing extends React.Component{
                         <img src="/images/fishhh.png" alt="logo 512" width="40%" style={{ marginTop: "38%" }} />
                         <p style={{ color: "black", fontSize: "50px", marginTop: "-15px" }}>fish</p>
                       </center>
-                      <Carousel.Caption style={{ paddingTop: "100px" }}>
-
-                        {/* <h3 color="black" style={{marginTop:"-30%"}} >ปลา</h3> */}
-
-                      </Carousel.Caption>
+                      <Carousel.Caption style={{ paddingTop: "100px" }}></Carousel.Caption>
                     </Carousel.Item>
+
                     <Carousel.Item >
                       <center>
                         <img src="/images/seal.png" alt="logo 512" width="40%" style={{ marginTop: "38%" }} />
 
                         <p style={{ color: "black", fontSize: "50px", marginTop: "-15px" }}>Walnut</p>
                       </center>
-                      <Carousel.Caption>
-
-                      </Carousel.Caption>
+                      <Carousel.Caption></Carousel.Caption>
                     </Carousel.Item>
+
                     <Carousel.Item >
                       <center>
                         <img src="/images/walnut.png" alt="logo 512" width="40%" style={{ marginTop: "38%" }} />
                         <p style={{ color: "black", fontSize: "50px", marginTop: "-15px" }}>Walrus</p>
                       </center>
-                      <Carousel.Caption>
-                        {/* <h3>Third slide label</h3>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                      </Carousel.Caption>
+                      <Carousel.Caption></Carousel.Caption>
                     </Carousel.Item>
+
                   </Carousel>
                   <br />
                   <br />
@@ -152,7 +133,6 @@ class Landing extends React.Component{
                   <br />
                   <br />
                 </div>
-
                 <div class="col-1 col-md-1 col-sm-1"></div>
 
               </div>

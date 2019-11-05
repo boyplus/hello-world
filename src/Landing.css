@@ -1,0 +1,9 @@
+.hoverBtn{
+	opacity: 0.6;
+	transition: 0.4s;
+}
+
+.hoverBtn:hover{
+	opacity: 1;
+	transition: 0.4s;
+}
