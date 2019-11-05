@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './Landing';
+import Logo from './Logo';
+import Content5 from './Content5';
 import './App.css'
 
 import { Button } from 'react-bootstrap';
@@ -15,80 +17,10 @@ export default class App extends React.Component {
       <div className="main" style={{backgroundColor:"#E5E5E5"}}>
         <div class="container-fluid">
           <Landing />
-          
-          <div class="row" style={{marginTop:"%"}}>
-            <div class="col-2 col-md-2 col-sm-2"></div>
-            <div class="col-1 col-md-1 col-sm-1"></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/11.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/22.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/33.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/44.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/555.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"><img src="/images/66.png" alt="logo 512" width="150%" /></div>
-            <div class="col-1 col-md-1 col-sm-1"></div>
-            <div class="col-2 col-md-2 col-sm-2"></div>
-          </div>
+          <Logo />
+          <Content5 />
+          {/* หน้าห้า */}
 
-          <br id="twp" />
-          
-          
-
-         
-                    {/* หน้าห้า */}
-
-          <div id="content5" style={{backgroundImage:'URL(/images/BG2.5.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%"}} >
-             
-             <div class="container-fluid">
-               <div class="row">
-                 <div class="col-2 col-md-2 col-sm-2"><img src="/images/Logopng.png" width="100%" style={{marginLeft:"10%",marginTop:"10%"}} /></div>
-                 
-               </div>
-               <br />
-               <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-             <br />
-     
-             <div class = "row">
-     
-               <div class="col-4 col-md-6 col-sm-4"><img src="/images/text.png" width="100%" style={{marginLeft:"8%",marginTop:"-14%"}} /></div>
-               <div class="col-6 col-md-6 col-sm-4"><img src="/images/text2.png" width="80%" style={{marginLeft:"16%",marginTop:"1%"}} /></div>
-     
-               </div>
-           
-             <br />
-     
-               <div class="row">
-                 <div class="col-2 col-md-2 col-sm-2"></div>
-                 <div class="col-1 col-md-1 col-sm-1"></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/11.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/22.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/33.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/44.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/555.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/66.png" alt="logo 512" width="150%" /></div>
-                 <div class="col-1 col-md-1 col-sm-1"></div>
-                 <div class="col-2 col-md-2 col-sm-2"></div>
-               </div>
-     
-             </div>
-             
-             </div>
             
 
           
