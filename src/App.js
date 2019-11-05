@@ -20,7 +20,6 @@ export default class App extends React.Component {
           <Landing />
           <Logo />
           <Content5 />
-<<<<<<< Updated upstream
           <br />
           <br/>
           <br/>
@@ -54,18 +53,8 @@ export default class App extends React.Component {
          <img src="/images/Vector.png" alt="logo 512" width="100%"  />
           </div>
         </div>
-=======
           {/* หน้าห้า */}
-
-            
-
-  
-
-
         </div>
-
->>>>>>> Stashed changes
-      </div >
     )
 
   }
