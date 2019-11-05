@@ -2,7 +2,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+<<<<<<< Updated upstream
 import './Landing.css';
+=======
+import Logo from './Logo';
+>>>>>>> Stashed changes
 class Landing extends React.Component{
 	render(){
 		return(
@@ -27,6 +31,7 @@ class Landing extends React.Component{
               <div class="col-4 col-md-4 col-sm-4"><img src="/images/66.png" alt="logo 512" width="100%" /></div>
               <div class="col-2 col-md-2 col-sm-2"></div>
             </div>
+            
 
 
             <br />
@@ -78,6 +83,7 @@ class Landing extends React.Component{
                 <div class="col-4 col-md-4 col-sm-4"><img src="/images/2.5.png" alt="logo 512" width="60%"style={{marginTop:"-20%"}} /></div>
                 <div class="col-2 col-md-2 col-sm-2"><img src="/images/2.7.7.png" alt="logo 512" width="100%"  style={{marginLeft:"-100%"}}/></div>
               </div>
+<<<<<<< Updated upstream
             <br />
             <br />
             <br />
@@ -99,6 +105,29 @@ class Landing extends React.Component{
               <div class="row" style={{ backgroundImage: 'URL(/images/bg2.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
                 <div class="col-1 col-md-1 col-sm-1" ></div>
                 <div class="col-10 col-md-10 col-sm-10" id="one" >
+=======
+              <Logo />
+              
+         
+         
+                
+            </div>
+
+
+
+
+
+
+
+
+            {/* แถวสอง */}
+            <div id="one">
+              <div class="row" style={{ backgroundImage: 'URL(/images/bg2.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
+                <div class="col-1 col-md-1 col-sm-1" ></div>
+
+                {/* style={{backgroundImage: 'URL(/images/bggg.png)' ,backgroundSize:"cover",backgroundPosition:"center" }} */}
+                <div class="col-10 col-md-10 col-sm-10"  >
+>>>>>>> Stashed changes
                   <Carousel >
                     <Carousel.Item  >
                       <center >
@@ -114,7 +143,13 @@ class Landing extends React.Component{
 
                         <p style={{ color: "black", fontSize: "50px", marginTop: "-15px" }}>Walnut</p>
                       </center>
+<<<<<<< Updated upstream
                       <Carousel.Caption></Carousel.Caption>
+=======
+                      <Carousel.Caption >
+
+                      </Carousel.Caption>
+>>>>>>> Stashed changes
                     </Carousel.Item>
 
                     <Carousel.Item >
