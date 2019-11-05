@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './Landing';
 import Logo from './Logo';
