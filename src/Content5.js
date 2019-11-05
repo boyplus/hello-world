@@ -1,17 +1,15 @@
 import React from 'react';
-import Landing from './Landing';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Logo from './Logo';
+
 class Content5 extends React.Component{
 	render(){
 		return (
 			<div id="content5" style={{backgroundImage:'URL(/images/BG2.5.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%"}} >
 	             <div class="container-fluid">
 	               <div class="row">
-	                 <div class="col-2 col-md-2 col-sm-2"><AnchorLink href="#news"><img src="/images/Logopng.png" width="100%" style={{marginLeft:"10%",marginTop:"10%"}} /></AnchorLink></div>
+	                 <div class="col-2 col-md-2 col-sm-2"><img src="/images/Logopng.png" width="100%" style={{marginLeft:"10%",marginTop:"10%"}} /></div>
 	               </div>
-	             <br />
-	             <br />
+	               <br />
+	               <br />
 	             <br />
 	             <br />
 	             <br />
@@ -39,8 +37,19 @@ class Content5 extends React.Component{
 	               </div>
 	           
 	             <br />
-				 <Logo />
-	              
+	     
+	               <div class="row">
+	                 <div class="col-2 col-md-2 col-sm-2"></div>
+	                 <div class="col-1 col-md-1 col-sm-1"></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/11.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/22.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/33.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/44.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/555.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"><img src="/images/66.png" alt="logo 512" width="150%" /></div>
+	                 <div class="col-1 col-md-1 col-sm-1"></div>
+	                 <div class="col-2 col-md-2 col-sm-2"></div>
+	               </div>
 	     
 	             </div>
              

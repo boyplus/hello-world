@@ -5,7 +5,6 @@ import Logo from './Logo';
 import Content5 from './Content5';
 import './App.css'
 
-
 import { Button } from 'react-bootstrap';
 
 import Carousel from 'react-bootstrap/Carousel'
@@ -53,8 +52,7 @@ export default class App extends React.Component {
          <img src="/images/Vector.png" alt="logo 512" width="100%"  />
           </div>
         </div>
-          {/* หน้าห้า */}
-        </div>
+      </div >
     )
 
   }
