@@ -31,9 +31,6 @@ class Landing extends React.Component{
 
             <br />
             <br />
-           
-
-            {/* แถวสอง */}
             <div   style={{ backgroundImage: 'URL(/images/body.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
               <br/>
               <br />
