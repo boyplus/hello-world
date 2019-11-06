@@ -1,13 +1,20 @@
 .hoverBtn{
 	opacity: 0.6;
 	transition: 0.4s;
+<<<<<<< HEAD
 	padding: 5px;
 	
+=======
+>>>>>>> master
 }
 
 .hoverBtn:hover{
 	opacity: 1;
 	transition: 0.4s;
+<<<<<<< HEAD
 	padding: 15px;
 	
 }
+=======
+}
+>>>>>>> master
