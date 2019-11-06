@@ -2,47 +2,75 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import {Animated} from "react-animated-css";
 import './Landing.css';
-import './Logo'
-
 class Landing extends React.Component{
 	render(){
 		return(
 			<div style={{ backgroundImage: 'URL(/images/bgg23.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
-
+        <div>
             <div id="news" class="row"  >
               <div class="col-2 col-md-2 col-sm-2"></div>
-              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink class="hoverBtn" href="#two"><img src="/images/11.png" alt="logo 512" width="100%" /></AnchorLink></div>
-              <div class="col-4 col-md-4 col-sm-4"> <AnchorLink class="hoverBtn" href="#one"><img src="/images/44.png" alt="logo 512" width="100%" /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4">
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#two">
+                      <img src="/images/11.png" alt="logo 512" width="100%" />
+                  </AnchorLink>
+                </Animated>
+              </div>
+              <div class="col-4 col-md-4 col-sm-4">
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#one">
+                    <img src="/images/44.png" alt="logo 512" width="100%" />
+                  </AnchorLink>
+                </Animated>
+              </div>
               <div class="col-2 col-md-2 col-sm-2"></div>
             </div>
 
             <div class="row">
-              <div class="col-4 col-md-4 col-sm-4" mar><AnchorLink class="hoverBtn" href="#six1"><img src="/images/22.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
-              <div class="col-4 col-md-4 col-sm-4"><a href="https://www.facebook.com/katak56"><img src="/images/Logopng.png" alt="logo 512" width="100%" /></a></div>
-              <div class="col-4 col-md-4 col-sm-4" ><AnchorLink class="hoverBtn" href="#content5"><img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4" mar>
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#six1">
+                    <img src="/images/22.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} />
+                  </AnchorLink>
+                </Animated>
+              </div>
+              <div class="col-4 col-md-4 col-sm-4">
+                <Animated animationIn="zoomIn" animationInDuration="1500">
+                  <img src="/images/Logopng.png" alt="logo 512" width="100%" />
+                </Animated>
+              </div>
+              <div class="col-4 col-md-4 col-sm-4" >
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#one">
+                    <img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} />
+                  </AnchorLink>
+                </Animated>
+              </div>
             </div>
 
             <div class="row">
               <div class="col-2 col-md-2 col-sm-2"></div>
-              <div class="col-4 col-md-4 col-sm-4"><img src="/images/33.png" alt="logo 512" width="100%" /></div>
-              <div class="col-4 col-md-4 col-sm-4"><img src="/images/66.png" alt="logo 512" width="100%" /></div>
+              <div class="col-4 col-md-4 col-sm-4">
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#">
+                    <img src="/images/33.png" alt="logo 512" width="100%" />
+                  </AnchorLink>
+                </Animated>
+              </div>
+              <div class="col-4 col-md-4 col-sm-4">
+                <Animated animationIn="bounceIn">
+                  <AnchorLink class="hoverBtn" href="#">
+                    <img src="/images/66.png" alt="logo 512" width="100%" />
+                  </AnchorLink>
+                </Animated>
+              </div>
               <div class="col-2 col-md-2 col-sm-2"></div>
             </div>
-
-
-            <br />
-            <br />
-            <div   style={{ backgroundImage: 'URL(/images/body.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
-              <br/>
-              <br />
-            <br />
-            <br />
-            <br />
-            <br id="two" />
-            <br />
+        </div>
+            <div id="two" style={{ backgroundImage: 'URL(/images/body.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%", marginTop:"12%"}} >
               <div  class="row" style={{marginLeft:"10%"}}>
-
                 <div class="col-2 col-md-2 col-sm-2"><img src="/images/2.1.1.png" alt="logo 512" width="90%"  style={{marginLeft:"50%"}}/></div>
                 <div class="col-4 col-md-4 col-sm-4"><img src="/images/2.3.png" alt="logo 512" width="60%" /></div>
                 <div class="col-4 col-md-4 col-sm-4"><img src="/images/2.4.png" alt="logo 512" width="60%" /></div>
@@ -94,6 +122,8 @@ class Landing extends React.Component{
             <br />
             <br />
             </div>
+
+
             <div >
               <div class="row" style={{ backgroundImage: 'URL(/images/bg2.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%" }} >
                 <div class="col-1 col-md-1 col-sm-1" ></div>

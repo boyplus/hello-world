@@ -1,13 +1,9 @@
 .hoverBtn{
 	opacity: 0.6;
 	transition: 0.4s;
-	padding: 15px 32px;
-	width: 50px;
 }
 
 .hoverBtn:hover{
 	opacity: 1;
 	transition: 0.4s;
-	padding: 25px 42px;
-	width:100px;
 }
