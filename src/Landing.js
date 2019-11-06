@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Landing.css';
+import './Logo'
+
 class Landing extends React.Component{
 	render(){
 		return(
@@ -17,8 +19,8 @@ class Landing extends React.Component{
 
             <div class="row">
               <div class="col-4 col-md-4 col-sm-4" mar><AnchorLink class="hoverBtn" href="#six1"><img src="/images/22.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
-              <div class="col-4 col-md-4 col-sm-4"><img src="/images/Logopng.png" alt="logo 512" width="100%" /></div>
-              <div class="col-4 col-md-4 col-sm-4" ><AnchorLink class="hoverBtn" href="#one"><img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
+              <div class="col-4 col-md-4 col-sm-4"><a href="https://www.facebook.com/katak56"><img src="/images/Logopng.png" alt="logo 512" width="100%" /></a></div>
+              <div class="col-4 col-md-4 col-sm-4" ><AnchorLink class="hoverBtn" href="#content5"><img src="/images/555.png" alt="logo 512" width="100%" style={{ marginTop: "50px" }} /></AnchorLink></div>
             </div>
 
             <div class="row">
